@@ -5,7 +5,6 @@ module.exports = function(grunt) {
   var elmCompile = require("node-elm-compiler").compile;
 
   var defaultOptions = {
-    yes: true,
     debug: false
   };
 
